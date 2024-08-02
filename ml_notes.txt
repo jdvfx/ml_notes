@@ -1,3 +1,6 @@
+# Install AMDGPU OpenCL on Fedora 40
+https://blog.onlyesterday.net/post/tech/2024/05/30_radeon_fedora40/#gsc.tab=0
+
 Linux 
 python3 --version
 
