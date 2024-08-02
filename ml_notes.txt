@@ -1,0 +1,25 @@
+Linux 
+python3 --version
+
+If the version differs from the Python version that ships with Houdini.
+You can install other versions of Python with pyenv
+https://github.com/pyenv/pyenv
+
+TLDR:
+1)
+curl https://pyenv.run | bash
+2)
+# add those lines to your ~/.bashrc
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+
+
+/home/$USER/houdiniXX.X/houdini.env
+PYTHONPATH = "/home/$USER/.local/lib/python3.12/site-packages/;$PYTHONPATH"
+
+
+
+
